@@ -1,0 +1,81 @@
+.input-area {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 99%;
+}
+
+html, body {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  background: #333;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.infowindow {
+  padding: 10px;
+  width: 24%;
+  margin: 5px;
+  display: flex;
+  justify-content: flex-end;
+  self-align: end;
+  background: #666;
+}
+.infowindow .helplist {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 100%;
+}
+.infowindow .helplist blockquote {
+  margin: 0px;
+}
+.infowindow .helplist p {
+  margin: 0px;
+}
+
+.term {
+  display: flex;
+  align-self: stretch;
+  flex-flow: column-reverse;
+  width: 75%;
+}
+.term a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.log {
+  display: flex;
+  align-self: stretch;
+  flex-flow: column;
+}
+.log blockquote {
+  display: flex;
+  align-self: start;
+  width: 100%;
+  background: #666;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.log .value {
+  color: white;
+}
+.log .error {
+  color: red;
+}
+
+/*# sourceMappingURL=index.css.map */
